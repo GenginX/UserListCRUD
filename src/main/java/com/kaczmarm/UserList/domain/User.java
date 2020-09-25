@@ -18,8 +18,6 @@ public class User {
     private String login;
 
     private String email;
-
+    @Setter
     private Status status;
-
-    private String password;
 }
